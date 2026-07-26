@@ -1,0 +1,85 @@
+# Day 1 – The Badge of Being a Beginner
+
+## Objective
+
+Rebuild a tutorial workflow from memory after understanding every concept from first principles.
+
+---
+
+## Original Workflow
+
+* Receive form submission
+* Save responses to Google Sheets
+* Determine tax status based on salary
+* Send email notification
+
+---
+
+## My Version
+
+Built a recruitment workflow that:
+
+* Receives a candidate's education through a form
+* Saves responses to Google Sheets
+* Assigns a role based on educational qualification
+* Sends the assigned role via email
+
+---
+
+## Problems Encountered
+
+### 1. Expression always returned `false`
+
+**Cause**
+
+A missing comma in the expression.
+
+**Lesson**
+
+Small syntax mistakes can completely change workflow behaviour.
+
+---
+
+### 2. Every Master's degree applicant became an Intern
+
+**Cause**
+
+The form returned `"Masters"` while my condition checked for `"Master"`.
+
+**Lesson**
+
+Conditional logic depends on exact string matching.
+
+One missing character is enough to make a condition fail.
+
+---
+
+### 3. Green doesn't always mean correct
+
+The expression editor showed no errors.
+
+The workflow still produced the wrong output.
+
+**Lesson**
+
+A workflow can be syntactically correct while being logically incorrect.
+
+---
+
+## Concepts Learned
+
+* Form Trigger
+* Google Sheets integration
+* Conditional logic
+* Expressions
+* Exact string matching
+* Data flow through workflows
+* Debugging in n8n
+
+---
+
+## Key Takeaway
+
+I stopped seeing workflows as connected nodes and started seeing them as data flowing through a sequence of decisions.
+
+That mental shift changed the way I think about automation.
