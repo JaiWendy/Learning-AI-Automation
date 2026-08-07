@@ -1,0 +1,31 @@
+**Day 9 – Understanding HTTP Requests** 
+
+*Objective*
+
+Build a content generation workflow that retrieves external data through an HTTP Request, processes it with AI, and writes structured outputs back to Google Sheets.
+
+*Workflow*
+
+- Reads a content idea topic from Google Sheets 
+- Retrieves research using the Tavily Search API
+- Uses an AI Agent to generate multiple content assets
+- Updates the spreadsheet with the generated outputs
+
+*Lessons*
+- An HTTP Request is simply one system asking another system for data or asking it to perform an action.
+- JSON is just structured data. Once I understood its structure, it became much easier to reference the correct fields inside n8n.
+- Returning structured JSON makes AI outputs predictable and much easier for other nodes to use.
+
+*Concepts Learned*
+- HTTP Requests
+- Request and Response
+- API communication
+- Endpoints
+- Headers
+- JSON structure
+- AI structured outputs
+- Data flow between external services
+
+*Key Takeaway*
+
+I stopped seeing the HTTP Request node as "the API node" and started seeing it as a messenger between systems. Once I understood the request-response cycle and how JSON carries data between services, API integrations became much less mysterious.

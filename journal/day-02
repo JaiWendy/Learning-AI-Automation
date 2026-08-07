@@ -1,0 +1,23 @@
+**Day 2 – Understanding AI Agents**
+*Objective*
+Learn how AI Agents differ from a simple OpenAI workflow by introducing memory and tool usage.
+
+ *Workflow*
+Receive a chat message
+Send it to an AI Agent
+Use memory to retain context
+Use tools when needed
+Return a response
+Send summary of conversation to google sheet
+Book calls if requested, send the details to google sheet.
+Send call details via email
+
+*Concepts Learned*
+AI Agent
+LLM (OpenAI Model)
+Memory
+Tool Calling
+Agent Orchestration
+
+*Key Takeaway*
+I learned that an AI Agent is more than just an LLM. It can reason, remember context, and use external tools to perform actions. An LLM only thinks, while an AI Agent thinks and acts. The LLM generates responses, but the agent decides when to use memory and external tools to accomplish the user's goal. 
